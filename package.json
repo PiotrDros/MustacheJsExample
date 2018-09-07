@@ -1,0 +1,16 @@
+{
+  "name": "kibana-dashboards",
+  "description": "Scripts generator for Kibana dashboards",
+  "license": "",
+  "repository": "",
+  "version": "1.0.0",
+  "main": "build.js",
+  "scripts": {
+    "start": "node build.js"
+  },
+  "dependencies": {
+    "mustache": "^2.3.0",
+    "slug": "^0.9.1",
+    "winston": "^2.3.1"
+  }
+}
